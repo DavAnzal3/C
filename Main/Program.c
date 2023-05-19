@@ -12,9 +12,12 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    risposta = get_string("Whats");
-    printf("Hello\n");
+    risposta = get_string("What's your name?\n");
+    printf("Hello, %s\n", risposta);
 
 }
 
+/* Lista comnadi terminale*/
 
+ls = Lista;
+mkdir = Nuova cartella;
