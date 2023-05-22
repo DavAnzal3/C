@@ -69,31 +69,34 @@ int main() {
   }   
   if (c=='e'||c=='E')
   {
-    int exp1;
+    double exp1;
+    double exp2;
     printf("\nYou selected exponentiation\n");
     printf("Insert exp1: ");
-    scanf("%i", &exp1);
+    scanf("%lf", &exp1);
+    printf("Insert number of elevation: ");
+    scanf("%lf", &exp2);
     if (exp1==0)
     {
       printf("Exponentatio it's 0\n");
     }
-    else printf("Exponentation it's: %i\n", exp1*exp1);
+    else printf("Exponentation it's: %lf\n", pow(exp1, exp2));
   }
   if (c=='r'||c=='R')
   {
-    float rad1;
-    float rad2 = sqrt(rad1);
-    
+    double rad1, rad2;
     printf("\nYou selected root extraction\n");
     printf("Insert rad1: ");
-    scanf("%f", &rad1);
+    scanf("%lf", &rad1);
     if (rad1<=0)
     {
       printf("Root extraction it's impossible\n");
     }
-    else printf("Root it's: %f\n", rad2);
+    else {
+      float rad2 = sqrt(rad1);
+      printf("Root it's: %lf\n", rad2);
+    } 
+    return 0;
   }
-  
-  
 }
          
