@@ -32,6 +32,8 @@ double  LongFloat
 %i  Integer
 %c  Char
 %f  Float
+%lf double
+&Lf long double
 %li LongInteger
 
 /*Tipo di sintassi*/
