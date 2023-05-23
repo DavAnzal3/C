@@ -41,3 +41,18 @@ double  LongFloat
 contatore = contatore+1;
 contatore += 1;
 contatore++;
+
+/*Cicli*/
+
+for (int 1 = 0, i<3; i++) 
+{
+    printf("Someone\n");
+}
+
+
+while
+
+
+do{
+    
+} while
