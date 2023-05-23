@@ -10,7 +10,7 @@ int main() {
 
 }
 
-void meow(int n){
+void meow(int n) {
     
     for (int i =0; i < n; i++)
     {
