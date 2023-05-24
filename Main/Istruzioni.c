@@ -56,3 +56,9 @@ while
 do{
     
 } while
+
+/*Array*/
+
+int scores[3];
+
+scores[0]= 72;
