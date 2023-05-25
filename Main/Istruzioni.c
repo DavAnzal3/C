@@ -1,4 +1,4 @@
-/* Lista comnadi terminale*/                                            
+/* Terminal Commands*/                                            
 
 ls =    Lista;                                                     
 mkdir = Nuova cartella;
@@ -9,9 +9,9 @@ clear = Terminale;
 cd =    change directory;
 code =  create a file;
 
-/*Creare eseguibile file*/
+/*Make a FileEs*/
 
-gcc ./Hello.c -o Eseguibile
+gcc ./(file).c -o (name)
 
 /*Richiamare eseguibile di un file*/
 
@@ -44,7 +44,7 @@ contatore++;
 
 /*Cicli*/
 
-for (int 1 = 0, i<3; i++) 
+for (int i = 0, i<3; i++) 
 {
     printf("Someone\n");
 }
