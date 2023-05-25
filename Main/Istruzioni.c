@@ -61,4 +61,4 @@ do{
 
 int scores[3];
 
-scores[0]= 72;
+scores[0]= n;

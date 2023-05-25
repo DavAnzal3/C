@@ -67,6 +67,7 @@ int main() {
       printf("Result it's 0\n");
     } 
   }   
+  
   if (c=='e'||c=='E')
   {
     double exp1;
@@ -82,6 +83,7 @@ int main() {
     }
     else printf("Exponentation it's: %lf\n", pow(exp1, exp2));
   }
+  
   if (c=='r'||c=='R')
   {
     double rad1, rad2;
