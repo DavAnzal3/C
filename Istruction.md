@@ -24,6 +24,12 @@ gcc ./(file).c -o (name)
 #include <string.h>
 #include <ctype.h>
 
+/*Commands*/
+
+strlen()
+strcmp( (), () ) == 0
+
+
 
 /*Type of variables*/
 
@@ -64,3 +70,20 @@ int scores[3];
 scores[0]= 71
 scores[1]= 54
 scores[2]= 23
+
+int names[] = {dave,name,susy};
+
+/*Create a data structor*/
+
+typedef struct 
+{
+    char name;
+    char number;
+}
+person;
+
+person people[2];
+
+people[0].name = "carter";
+people[0].number = "123456789"
+ 
