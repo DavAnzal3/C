@@ -86,4 +86,3 @@ person people[2];
 
 people[0].name = "carter";
 people[0].number = "123456789"
- 
