@@ -23,11 +23,15 @@ gcc ./(file).c -o (name)
 #include <math.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h> 
 
 /*Commands*/
 
 strlen()
-strcmp( (), () ) == 0
+strcmp( (), () ) == 0 
+malloc(strlen(name) + 1)
+sizeof()
+strcpy(s, t)
 
 
 
@@ -71,11 +75,11 @@ scores[0]= 71
 scores[1]= 54
 scores[2]= 23
 
-int names[] = {dave,name,susy};
+char names[] = {dave,name,susy};
 
 /*Create a data structor*/
 
-typedef struct 
+typedef struct person
 {
     char name;
     char number;
