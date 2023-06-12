@@ -1,16 +1,17 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 int main() {
 
-    char c;
-
+    char *qs = malloc(sizeof(qs));
     printf("Did you agree whit the normative: ");
-    scanf("%c", &c);
-    if (c=='y' || c=='Y')
+    scanf("%s", qs);
+    if (strcmp(qs, "Yes")== 0)
     {
         printf("Good you agree\n");
     }
-    else if (c=='n' || c=='N')
+    else if (strcmp(qs, "No")== 0)
     {
         printf("Bad you not agree\n");
     }

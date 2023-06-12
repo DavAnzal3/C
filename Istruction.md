@@ -33,6 +33,27 @@ malloc(strlen(name) + 1)
 sizeof()
 strcpy(s, t)
 
+auto
+break
+case
+cost
+continue
+default
+do
+enum
+extern
+goto
+inline
+register
+restrict
+short                //Occupa meno spazio di un int normale               
+signed
+static
+struct
+switch
+union
+unsigned int          //Non accetta negativi 
+volatile
 
 
 /*Type of variables*/
@@ -47,7 +68,10 @@ double  =   long decimal number
 /*Typer % for printf*/
 
 %s   =      Strig
+%zu  =      SizeOf
 %i   =      Integer
+%u   =      Unsigned
+%hd  =      Short
 %c   =      Char
 %f   =      Float
 %lf  =      Double
