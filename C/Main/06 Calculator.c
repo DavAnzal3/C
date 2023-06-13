@@ -123,6 +123,9 @@ double radical()
 
 int main() 
 {
+  char *rs = malloc(sizeof(rs));
+  do
+  {
   char *op = malloc(sizeof(op));
   printf("Digit your operation: ");
   scanf("%s", op);
@@ -150,7 +153,20 @@ int main()
   {
     radical();
   }
+  else if (strcmp(op, "exit") == 0)
+  {
+  
+  }
   else printf("Invalid operation\n");
   free(op);
+  printf("Do you continue?: ");
+  scanf("%s", rs);
+  for (int i = 0; i < strlen(rs); i++)
+  {
+    rs[i] = tolower(rs[i]);
+  }
+  
+  } while (strcmp(rs , "yes") == 0);
+  free(rs);
   return 0;
 }
