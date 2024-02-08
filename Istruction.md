@@ -1,11 +1,8 @@
 /*Terminal Commands*/                                            
 
-ls      =   list of file
-
-mkdir   =   new folder   
-
-rm      =   remove
-
+ls      =   list of file \n
+mkdir   =   new folder   \n
+rm      =   remove   \n
 cp      =   copy
 mv      =   move
 clear   =   clear the terminal
