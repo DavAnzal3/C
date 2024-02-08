@@ -1,17 +1,17 @@
 /*Terminal Commands*/                                            
 
-ls      =   list of file \n
-mkdir   =   new folder   \n
-rm      =   remove   \n
-cp      =   copy  \n
-mv      =   move \n
-clear   =   clear the terminal \n
-cd      =   change directory \n
-code    =   create a file \n
+ls      =   list of file 
+mkdir   =   new folder   
+rm      =   remove   
+cp      =   copy  
+mv      =   move 
+clear   =   clear the terminal 
+cd      =   change directory
+code    =   create a file
 
 /*Make a FileEs*/
 
-gcc ./(file).c -o (name) \n 
+gcc ./(file).c -o (name)
 
 /*Execute a file*/
 
