@@ -3,15 +3,15 @@
 ls      =   list of file \n
 mkdir   =   new folder   \n
 rm      =   remove   \n
-cp      =   copy
-mv      =   move
-clear   =   clear the terminal
-cd      =   change directory
-code    =   create a file
+cp      =   copy  \n
+mv      =   move \n
+clear   =   clear the terminal \n
+cd      =   change directory \n
+code    =   create a file \n
 
 /*Make a FileEs*/
 
-gcc ./(file).c -o (name)
+gcc ./(file).c -o (name) \n 
 
 /*Execute a file*/
 
