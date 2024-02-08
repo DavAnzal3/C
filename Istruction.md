@@ -1,7 +1,7 @@
 /*Terminal Commands*/                                            
 
-ls      =   list of file                                                  
-mkdir   =   new folder
+ls      =   list of file  \n
+mkdir   =   new folder    \n
 rm      =   remove
 cp      =   copy
 mv      =   move
